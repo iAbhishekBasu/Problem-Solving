@@ -36,10 +36,8 @@ int32_t main()
 	int n;
 	cin >> n;
 
-	int arr[n - 1];
-	int brr[n];
-	int sum1 = 0;
-	int sum2 = 0;
+	int arr[n - 1], brr[n];
+	int sum1 = 0, sum2 = 0;
 
 	for (int i = 0; i < n - 1; i++)
 	{
